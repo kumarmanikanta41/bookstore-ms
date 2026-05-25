@@ -111,11 +111,16 @@
             <artifactId>testcontainers-postgresql</artifactId>
             <scope>test</scope>
         </dependency>
-<!---->
-        <!--<dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+        <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-        </dependency>-->
+            <version>6.0.0</version>
+            <scope>test</scope>
+        </dependency>
 
         <!--<dependency>
             <groupId>org.springdoc</groupId>
